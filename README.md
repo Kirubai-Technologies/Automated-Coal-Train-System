@@ -21,8 +21,6 @@ An industrial IoT-enabled autonomous coal transport railway system powered by an
 
 ## 🏗️ Hardware Architecture & Pin Interconnect
 
-![Hardware Architecture](images/architecture_diagram.png)
-
 ### Pin Mapping Table
 
 | Component | Pin | ESP32 GPIO | Function / Notes |
@@ -46,8 +44,6 @@ An industrial IoT-enabled autonomous coal transport railway system powered by an
 
 ## 🔄 Operational Workflow & Lifecycle
 
-![Workflow Diagram](images/workflow_diagram.png)
-
 1. **Initiation**: Train begins reversing toward the Mining Pit at configured PWM speed.
 2. **Mine Docking**: Rear ultrasonic sensor confirms obstacle $\le 5.0\text{ cm}$ for $\ge 80\text{ ms}$.
 3. **Coal Loading**: Train halts for 10.0 seconds while overhead hopper dispenses simulated coal.
@@ -58,12 +54,6 @@ An industrial IoT-enabled autonomous coal transport railway system powered by an
 8. **Discharge (Open Gate)**: SG90 servo opens to 60° for 6.0 seconds to release coal.
 9. **Lock Gate**: SG90 servo returns to 90° closed position (1.0 second settling).
 10. **Cycle Complete**: Train enters complete status, standing ready for the next cycle.
-
----
-
-## ⚙️ Algorithmic Flowchart
-
-![System Flowchart](images/system_flowchart.png)
 
 ---
 
