@@ -8,7 +8,7 @@
            - Front (Unload):  TRIG -> GPIO 32, ECHO -> GPIO 34
   Detection Threshold: <= 5.0 cm
   Unloading Gate: SG90 Servo (GPIO 23)
-  Network: Station Mode ("KIRUBAI ILLAM")
+  Network: Station Mode ("Lr Renato")
 */
 
 #include <WiFi.h>
@@ -18,8 +18,8 @@
 #include <ESPmDNS.h>
 
 // --- Wi-Fi Configuration ---
-const char* ssid = "KIRUBAI ILLAM";
-const char* password = "Sjebajas";
+const char* ssid = "Lr Renato";
+const char* password = "LrRenato";
 
 WebServer server(80);
 
