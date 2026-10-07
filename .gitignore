@@ -1,0 +1,11 @@
+# Build and compilation outputs
+*.bin
+*.elf
+*.hex
+*.map
+build/
+output/
+.vscode/
+.idea/
+*.tmp
+*.bak
